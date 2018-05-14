@@ -5,3 +5,10 @@
 2. Go to `/site/config/site.yaml` and add plugin name to plugins section.
 3. Save your changes.
 
+Example:
+```
+...
+plugins:
+  - sitemap
+  - yametrika
+```
