@@ -1,6 +1,6 @@
 name: Yandex Metrika
 version: 0.1.0
-description: "Add yandex metrika."
+description: "Add yandex metrika counter and add its tracking code on your website"
 author:
   name: Fullzero
   email: fullzero5@gmail.com
