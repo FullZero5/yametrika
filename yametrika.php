@@ -15,7 +15,6 @@ namespace Flextype;
 
 use Flextype\Component\{Event\Event, Registry\Registry};
 
-
 Event::addListener('onThemeFooter',function () {
     echo(yaCode(Registry::get('plugins.yametrika.id')));
 });
