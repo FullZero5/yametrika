@@ -12,3 +12,9 @@ plugins:
   - sitemap
   - yametrika
 ```
+## Settings
+
+```yaml
+enabled: true # or `false` to disable the plugin
+id:  # id yandex metrika counter
+```
