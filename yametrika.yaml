@@ -1,0 +1,14 @@
+name: Yandex Metrika
+version: 0.1.0
+description: "Add yandex metrika."
+author:
+  name: Fullzero
+  email: fullzero5@gmail.com
+  url: - http://flextype.org/
+homepage: - https://github.com/FullZero5/yametrika
+bugs: - https://github.com/FullZero5/yametrika/issues
+license: MIT
+
+# Plugin settings
+enabled: true
+id: 48853682
