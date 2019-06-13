@@ -1,0 +1,13 @@
+{
+  "name": "Yandex Metrika Plugin",
+  "version": "2.0.0",
+  "description": "Yandex Metrika Plugin for Flextype 9.0 your website.",
+  "author": {
+    "name": "Fullzero5",
+    "email": "Fullzero5@gmail.com",
+    "url": "http://flextype.org"
+  },
+  "homepage": " https://github.com/FullZero5/yametrika",
+  "bugs": "https://github.com/FullZero5/yametrika/issues",
+  "license": "MIT"
+}
