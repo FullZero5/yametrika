@@ -10,7 +10,7 @@
 
 ```json
 {
- "enabled": true, 
+ "enabled": true, //or false to disable the plugin
  "YandexId": 12345 
 }
 ```
