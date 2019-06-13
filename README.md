@@ -1,14 +1,16 @@
-# Yandex Metrika Plugin for [Flextype](http://flextype.org/)
+# New Yandex Metrika Plugin for [Flextype](http://flextype.org/) 9.0
 
 ## Installation
 1. Unzip plugin to the folder `/site/plugins/`
-2. Go to `/settings.yaml` and add id yandex metrika counter.
+2. Go to `/settings.json` and add id yandex metrika counter.
 3. Save your changes.
 
 
-## Settings in file settings.yaml
+## Settings in file settings.json
 
-```yaml
-enabled: true # or `false` to disable the plugin
-id:  # id yandex metrika counter
+```json
+{
+enabled: true, # or `false` to disable the plugin
+YandexId:  # id yandex metrika counter
+}
 ```
