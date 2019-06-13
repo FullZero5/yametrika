@@ -10,7 +10,7 @@
 
 ```json
 {
-enabled: true, # or `false` to disable the plugin
-YandexId:  # id yandex metrika counter
+ 'enabled': true, '# or `false` to disable the plugin'
+ 'YandexId':  '# id yandex metrika counter'
 }
 ```
