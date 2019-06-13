@@ -5,7 +5,7 @@ use Flextype\Component\Filesystem\Filesystem;
 
 $flextype->emitter->addListener('onThemeTail', function() {
     
-    $getInSettings = JsonParser::decode(Filesystem::read(ROOT_DIR . '/site/plugins/data-guard/settings.json')); 
+    $getInSettings = JsonParser::decode(Filesystem::read(ROOT_DIR . '/site/plugins/yametrika/settings.json')); 
     
     echo(yaCode($getInSettings["YandexId"]));
    
