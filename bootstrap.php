@@ -1,14 +1,10 @@
 <?php
 namespace Flextype;
-use Flextype\Component\Filesystem\Filesystem;
 
+$getId = $flextype->registry->get('plugins.yametrika.YandexId'); 
 
-$flextype->emitter->addListener('onThemeTail', function() {
-    
-    $getInSettings = JsonParser::decode(Filesystem::read(ROOT_DIR . '/site/plugins/yametrika/settings.json')); 
-    
-    echo(yaCode($getInSettings["YandexId"]));
-   
+$flextype->emitter->addListener('onThemeTail', function() use ($getId)  {
+       echo(yaCode($getId));
 });
 
 function yaCode(int $id) : string {
