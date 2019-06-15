@@ -1,4 +1,4 @@
-# New Yandex Metrika Plugin for [Flextype](http://flextype.org/) 9.0
+# New Yandex Metrika Plugin for [Flextype](http://flextype.org/) 0.9.0
 
 ## Installation
 1. Unzip plugin to the folder `/site/plugins/`
